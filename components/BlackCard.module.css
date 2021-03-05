@@ -1,0 +1,28 @@
+.black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  /* background-color: #333; */
+  background-image: linear-gradient(180deg, rgb(70, 65, 65) 0%, #444 100vh);
+  width: 400px;
+  margin: 2em auto;
+  padding: 0.5em;
+  border-radius: 50px 10px 25px 10px;
+}
+
+.black img {
+  border-radius: 50%;
+}
+
+.black h2 {
+  font-size: 1em;
+  color: white;
+}
+
+.black p {
+  font-size: 0.8em;
+  margin-top: -0.7em;
+  color: #dadce0;
+}
